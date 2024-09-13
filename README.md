@@ -10,9 +10,10 @@
 - Bojun Zhang, Office: Room 1017 North Engineering Building, Contact by [email](mailto:12431145@mail.sustech.edu.cn).
 
 ### Goals
-This course aims at providing students an in-depth understanding of the finite element method with a focus on nonlinear and inelastic problems. Theoretical foundation as well as the implementation of the finite element method will be covered with applications primarily in the static and dynamic analysis of solids and structures.
+This course aims to give students an in-depth understanding of the finite element method. In particular, the theoretical foundation as well as the implementation of the finite element method will be covered with applications primarily in the static and dynamic analysis of solids and structures.
 
 [Syllabus](Syllabus_Computational_Solid_Mechanics_2024.pdf)
+[Grading policy](%E8%AF%BE%E7%A8%8B%E8%80%83%E6%A0%B8%E8%AF%84%E5%88%86%E6%A0%87%E5%87%86.pdf)
 
 ### Prerequisites
 Calculus, Linear algebra, and MATLAB programming are required.
