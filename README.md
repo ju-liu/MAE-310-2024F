@@ -18,12 +18,6 @@ This course aims to give students an in-depth understanding of the finite elemen
 ### Prerequisites
 Calculus, Linear algebra, and MATLAB programming are required.
 
-### Grading policy
-- Homework assignment: 40%
-- Mid-term exam: 25%
-- Final project: 30%
-- Class participation: 5%
-
 ### Assignments
 - [Assignment 0](hw/Homework-0.pdf)
 - [Assignment 1](hw/Homework-1.pdf) - Due Sep. 30 2024.
