@@ -24,8 +24,8 @@ Calculus, Linear algebra, and MATLAB programming are required.
 - Class participation: 5%
 
 ### Assignments
-- [Assignment 0](hw/HW-0.pdf).
-- [Assignment 1](hw/HW-1.pdf) - Due Sep. 30 2024.
+- [Assignment 0](hw/Homework-0.pdf).
+- [Assignment 1](hw/Homework-1.pdf) - Due Sep. 30 2024.
 
 
 ### References
