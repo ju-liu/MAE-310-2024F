@@ -12,6 +12,8 @@
 ### Goals
 This course aims at providing students an in-depth understanding of the finite element method with a focus on nonlinear and inelastic problems. Theoretical foundation as well as the implementation of the finite element method will be covered with applications primarily in the static and dynamic analysis of solids and structures.
 
+[Syllabus](Syllabus_Computational_Solid_Mechanics_2024.pdf)
+
 ### Prerequisites
 Calculus, Linear algebra, and MATLAB programming are required.
 
@@ -24,3 +26,7 @@ Calculus, Linear algebra, and MATLAB programming are required.
 ### Assignments
 - [Assignment 0](hw/HW-0.pdf).
 - [Assignment 1](hw/HW-1.pdf) - Due Sep. 30 2024.
+
+
+### References
+- The Finite Element Method: linear static and dynamic finite element analysis, T.J.R. Hughes, Dover 2000. [JD](https://item.jd.com/1130427437.html)
