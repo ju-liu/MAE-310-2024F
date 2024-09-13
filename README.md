@@ -12,9 +12,8 @@
 ### Goals
 This course aims to give students an in-depth understanding of the finite element method. In particular, the theoretical foundation as well as the implementation of the finite element method will be covered with applications primarily in the static and dynamic analysis of solids and structures.
 
-Syllabus: [link](Syllabus_Computational_Solid_Mechanics_2024.pdf)
-
-Grading policy: [link](%E8%AF%BE%E7%A8%8B%E8%80%83%E6%A0%B8%E8%AF%84%E5%88%86%E6%A0%87%E5%87%86.pdf)
+- Syllabus: [link](Syllabus_Computational_Solid_Mechanics_2024.pdf)
+- Grading policy: [link](%E8%AF%BE%E7%A8%8B%E8%80%83%E6%A0%B8%E8%AF%84%E5%88%86%E6%A0%87%E5%87%86.pdf)
 
 ### Prerequisites
 Calculus, Linear algebra, and MATLAB programming are required.
