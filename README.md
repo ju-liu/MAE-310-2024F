@@ -22,6 +22,8 @@ Calculus, Linear algebra, and MATLAB programming are required.
 - [Assignment 0](hw/Homework-0.pdf)
 - [Assignment 1](hw/Homework-1.pdf) - Due Sep. 30 2024.
 - [Assignment 2](hw/Homework-2.pdf) - Due Oct. 21 2024.
+- [Assignment 3](hw/Homework-3.pdf) - Due Nov. 18 2024.
+- [Assignment 4](hw/Homework-4.pdf) - Due Nov. 25 2024.
 
 
 ### References
