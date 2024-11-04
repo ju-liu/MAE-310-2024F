@@ -16,7 +16,7 @@ switch degree
             end
         end
 
-        % quadratic basis function
+    % quadratic basis function
     case 2
         if a == 1
             if der == 0
@@ -38,7 +38,7 @@ switch degree
             end
         end
 
-        % cubic basis function
+    % cubic basis function
     case 3
         if a == 1
             if der == 0
