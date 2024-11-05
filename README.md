@@ -7,7 +7,7 @@
 
 ### Teaching Assistants
 - Chi Ding, Office: Room 1017 North Engineering Building, Contact by [email](mailto:12431145@mail.sustech.edu.cn).
-- Bojun Zhang, Office: Room 1017 North Engineering Building, Contact by [email](mailto:12431145@mail.sustech.edu.cn).
+- Bojun Zhang, Office: Room 1017 North Engineering Building, Contact by [email](mailto:1002129979@qq.com).
 
 ### Goals
 This course aims to give students an in-depth understanding of the finite element method. In particular, the theoretical foundation as well as the implementation of the finite element method will be covered with applications primarily in the static and dynamic analysis of solids and structures.
