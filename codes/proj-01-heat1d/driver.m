@@ -6,7 +6,7 @@ g = 1.0;    % u    = g  at x = 1
 h = 0.5;    % -u,x = h  at x = 0
 
 % Setup the mesh
-pp   = 3;              % polynomial degree
+pp   = 1;              % polynomial degree
 n_en = pp + 1;         % number of element or local nodes
 n_el = 4;              % number of elements
 n_np = n_el * pp + 1;  % number of nodal points
@@ -38,10 +38,11 @@ for ee = 1 : n_el
   
   k_ele = zeros(n_en, n_en); % allocate a zero element stiffness matrix
   
-  x_ele = zeros(n_en, 1);
-  for aa = 1 : n_en
-    x_ele(aa) = x_coor(IEN(ee,aa));
-  end
+  %x_ele = zeros(n_en, 1);
+  %for aa = 1 : n_en
+  %  x_ele(aa) = x_coor(IEN(ee,aa));
+  %end
+  x_ele = x_coor(IEN(ee,:));
 
   for qua = 1 : n_int
     
@@ -53,7 +54,7 @@ for ee = 1 : n_el
 
     for aa = 1 : n_en
       for bb = 1 : n_en
-        k_ele(aa, bb) = k_ele(aa, bb) + weights(qua) * PolyShape(pp, aa, xi(qua), 1) * PolyShape(pp, bb, xi(qua), 1) * dxi_dx;
+        k_ele(aa, bb) = k_ele(aa, bb) + weight(qua) * PolyShape(pp, aa, xi(qua), 1) * PolyShape(pp, bb, xi(qua), 1) * dxi_dx;
       end
     end
   end
@@ -61,12 +62,12 @@ for ee = 1 : n_el
   % check the ID(IEN(ee, aa)) and ID(IEN(ee,bb)), if they are positive
   % put the element stiffness matrix into K
   for aa = 1 : n_en
-    LM_a = ID(IEN(ee,aa));
-    if(LM_a > 0)
+    P = ID(IEN(ee,aa));
+    if(P > 0)
       for bb = 1 : n_en
-        LM_b = ID(IEN(ee,bb));
-        if(LM_b > 0)
-          K(LM_a, LM_b) = K(LM_a, LM_b) + k_ele(aa, bb);
+        Q = ID(IEN(ee,bb));
+        if(Q > 0)
+          K(P, Q) = K(P, Q) + k_ele(aa, bb);
         end
       end
     end
