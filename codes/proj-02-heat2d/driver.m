@@ -7,7 +7,7 @@ exact = @(x,y) x*(1-x)*y*(1-y);
 exact_x = @(x,y) (1-2*x)*y*(1-y);
 exact_y = @(x,y) x*(1-x)*(1-2*y);
 
-f = @(x,y) 2*kappa*x*(1-x)+2*kappa*y*(1-y); % source term
+f = @(x,y) -2.0*kappa*x*(1-x) - 2.0*kappa*y*(1-y); % source term
 
 % mesh generation
 n_en   = 4;               % number of nodes in an element
